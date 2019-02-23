@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy" : "ng build --prod --output-path profile --base-href=\"https://ajjack5.github.io/profile/\" && ngh --dir=dist/profile"
+    "deploy": "ng build --prod --base-href=\"https://ajjack5.github.io/profile/\" && ngh --dir=dist/profile"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +20,8 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "angular-particle": "^1.0.4",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
