@@ -13,10 +13,10 @@
   </div>
 
   <div class="row content" *ngIf="selected === 0" [ngClass]="{'tab__selected__skillsets' : selected !== 1}">
-    <app-skillsets></app-skillsets>
+    <app-skillsets class="w-100"></app-skillsets>
   </div>
   <div class="row content" *ngIf="selected === 1" [ngClass]="{'tab__selected__projects' : selected !== 0}">
-    <app-projects></app-projects>
+    <app-projects class="w-100"></app-projects>
   </div>
 
 </div>

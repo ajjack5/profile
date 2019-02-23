@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TabType } from './models/tab-types';
+import { TabType } from './models/tab-types.enum';
 
 @Component({
   selector: 'app-tabs',
