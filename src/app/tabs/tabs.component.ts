@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TabType } from './models/tab-types';
 
 @Component({
   selector: 'app-tabs',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabs.component.scss']
 })
 export class TabsComponent implements OnInit {
+  public selected: TabType;
 
   constructor() { }
 
   ngOnInit() {
+    this.selected = 0;
   }
 
+  public setSelected(type: TabType): void {
+    this.selected = type;
+  }
 }
