@@ -2,8 +2,8 @@ export class ParticleSettings {
     static Style = {
         'position': 'absolute',
         'width': '100%',
-        'height': '100%',
-        'z-index': 1,
+        'height': '620px',
+        'z-index': -1,
         'top': 0,
         'left': 0,
         'right': 0,

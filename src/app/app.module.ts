@@ -4,11 +4,13 @@ import { ParticlesModule } from 'angular-particle';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
