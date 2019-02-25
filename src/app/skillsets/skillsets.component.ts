@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ISkillGroups } from '../projects/models/skill-groups.interface';
-import { SkillGroupsData } from '../projects/data/skill-groups.data';
+import { ISkillGroups } from './models/skill-groups.interface';
+import { SkillGroupsData } from './data/skill-groups.data';
 
 @Component({
   selector: 'app-skillsets',

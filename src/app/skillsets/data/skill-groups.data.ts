@@ -18,22 +18,22 @@ export class SkillGroupsData {
                 'C#',
                 'Java',
                 'Python',
-                'SQL'
+                'SQL',
+                'ASP.NET Web API',
+                'Entity Framework'
             ]
         }, {
             title: 'Other Skills',
             skills: [
-                'Agile Methodologies',
                 'Git',
-                'ASP.NET Web API',
-                'Entity Framework',
-                'Dapper',
-                'Artificial Intelligence'
+                'Test-Driven Development (TDD)',
+                'Agile Methodologies',
+                'Artificial Intelligence (AI)'
             ]
         }, {
             title: 'Devops',
             skills: [
-                'CI/CD - Octopus / VSTS',
+                'CI/CD: Octopus / VSTS',
                 'Azure',
                 'Docker',
                 'Kubernetes',

@@ -1,0 +1,12 @@
+.border {
+    margin-top: 60px;
+    border-color: white;
+    background-color: white;
+}
+
+.project {
+    &__image {
+        width: 100%;
+        min-width: 260px;
+    }
+}
