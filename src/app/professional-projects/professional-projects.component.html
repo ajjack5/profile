@@ -1,0 +1,29 @@
+<div class="container" *ngFor="let professionalProject of professionalProjects">
+  <div class="row p-3" >
+
+    <div class="col-sm">
+      <p>{{ professionalProject.title }}</p>
+      <p>By {{ professionalProject.company }}</p>
+      <ul *ngFor="let exp of professionalProject.experience">
+        <li>
+          {{ exp.key }} - {{ exp.value }}
+        </li>
+      </ul>
+      <p></p>
+      <img class="professional-project__image" [src]="professionalProject.imageLink">
+    </div>
+
+    <div class="col-sm">
+        <p>Description:</p>
+        <ul>
+          <li *ngFor="let description of professionalProject.description">{{ description }}</li>
+        </ul>
+        <p>Core Skills:</p>
+        <ul>
+          <li *ngFor="let skill of professionalProject.projectSkills">{{ skill }}</li>
+        </ul>
+    </div>
+
+  </div>
+  <hr class="border">
+</div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IProjects } from './models/projects.model';
+import { IProject } from '../shared/models/project.interface';
 import { ProjectsData } from './data/projects.data';
 
 @Component({
@@ -8,7 +8,7 @@ import { ProjectsData } from './data/projects.data';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  public projects: IProjects[];
+  public projects: IProject[];
 
   constructor() { }
 

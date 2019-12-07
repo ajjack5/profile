@@ -2,21 +2,24 @@
   <div class="row">
     <div class="tab" (click)="setSelected(0)">
       <h6 class="text-center">
-        SKILLSETS
+        PROFESSIONAL EXPERIENCE
       </h6>
     </div>
     <div class="tab" (click)="setSelected(1)">
       <h6 class="text-center">
-        PROJECTS & EXPERIENCE
+        PERSONAL PROJECTS
       </h6>
     </div>
   </div>
 
-  <div class="row content" *ngIf="selected === 0" [ngClass]="{'tab__selected__skillsets' : selected !== 1}">
-    <app-skillsets class="w-100"></app-skillsets>
-  </div>
-  <div class="row content" *ngIf="selected === 1" [ngClass]="{'tab__selected__projects' : selected !== 0}">
+  <div class="row content" *ngIf="selected === 0" [ngClass]="{'tab__selected__professional-projects' : selected === 0}">
+      <app-professional-projects class="w-100"></app-professional-projects>
+    </div>
+  <div class="row content" *ngIf="selected === 1" [ngClass]="{'tab__selected__projects' : selected === 1}">
     <app-projects class="w-100"></app-projects>
   </div>
+  <!-- <div class="row content" *ngIf="selected === 0" [ngClass]="{'tab__selected__blog' : selected !== 1}">
+    <app-blog class="w-100"></app-blog>
+  </div> -->
 
 </div>

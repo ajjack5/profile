@@ -1,34 +1,56 @@
-import { IProjects } from '../models/projects.model';
+import { IProject } from '../../shared/models/project.interface';
 
 export class ProjectsData {
-    public static Projects: IProjects[] = [
+    public static Projects: IProject[] = [
         {
-            title: 'Helix by MedicalDirector',
-            imageLink: 'assets/helix.png',
+            title: 'Cryptocurrency trading bot',
+            imageLink: 'assets/projects/crypto.jpg',
             description: [
-                'Profoundly involved in water-scrum-fall hybrid agile methodologies.',
-                'Applied the software development life cycle within a squad to engineer solutions tailored to product needs.',
-                'Engineering via full-stack to deliver the next-generation cloud-based SaaS web product within the medical general-practice industry.',
-                'Enabling Ideal Healthcare.',
-                'Project skills include: HTML, SASS/CSS, Angular, Angular.js, TypeScript, JavaScript, WebAPI, C# (.NET 4.5.2, .NET Core 2.2), Entity Framework, MSSQL, Microsoft Azure.'
+                'Inception and creation of a trading bot',
+                'Utilised online public API\'s to capture data and vectors of information',
+                'Leveraging pre-processing of analytics, post-processing of analytics and building artificial intelligence models via captured data',
+                'Integrated with third-party online trading systems via Web API\'s to execute trade deals',
+                'Architected algorithms to distinguish changes in future captured data to maximise AI model prediction accuracy',
+                'Built for compliance, managing and logging all transactions and necessary information for proper tax declarations',
+                'Designed to run with minimal RAM utilisation and low processing power',
+                'Runs off a RaspberryPI with minimal-to-no electricity cost'
+            ],
+            projectSkills: [
+                'C# .Net Core',
+                'Weka - analytics pre-processing and machine learning effeciency',
+                'ML.NET artificial intelligence',
+                'Depoloyment and continual execution of code via Raspberry PI',
             ]
-        }, {
-            title: 'Royal Box Software Solution',
-            imageLink: 'assets/rbs.png',
+        },
+        {
+            title: 'Roma Bush Gardens community website',
+            imageLink: 'assets/projects/rbg.jpg',
             description: [
-                'Initiated the proposal and design of an automated industry-specific business process.',
-                'Developed and delivered a scalable software solution for known changes in future requirements.',
-                'Enabled a reduction in staff error and saving hours of weekly managerial time for supervisors.',
-                'Project skills include: C#, WinForms'
+                'Inception and creation of a community website for a rural QLD environmental conservational gardening society',
+                'Built on a serverless model, enabling a cost-effective website hosting solution',
+                'Taught members of the gardening society how to dynamically add/change website content into the firebase database without any re-deployment of code',
+                'Helping the town of Roma by attracting tourism to the rural QLD bush gardens, offering virtual audio-guides and information on local fauna & flora while walking around the gardens'
+            ],
+            url: 'https://www.roma-bush-gardens.firebaseapp.com',
+            projectSkills: [
+                'Angular 2+',
+                'Google Firebase (sub-division of Google Cloud)',
+                'Node.js',
             ]
-        }, {
+        },
+        {
             title: 'MIT Self-Driving Racecar',
-            imageLink: 'assets/racecar.JPG',
+            imageLink: 'assets/projects/racecar.JPG',
             description: [
-                'Group collaboration to engineer a self-driving autonomous vehicle.',
-                'Applied the software development lifecycle in an XP/Agile methodology.',
-                'Leveraged knowledge of artificial intelligence to achieve machine vision via convolutional neural network.',
-                'Project skills include: Python2, Python3, Python AI libraries such as TensorFlow / Keras, Google Cloud, Working with RaspberryPi\'s and Nvidia Jetson TX2\'s.'
+                'Group collaboration to engineer a self-driving autonomous vehicle',
+                'Applied the software development lifecycle in an XP/Agile methodology',
+                'Leveraged knowledge of artificial intelligence to achieve machine vision via optical algorithms and convolutional neural networks',
+            ],
+            projectSkills: [
+                'Python',
+                'Python AI libraries such as TensorFlow / Keras',
+                'Google Cloud',
+                'Working with RaspberryPi\'s and Nvidia Jetson TX2\'s',
             ]
         }
     ]

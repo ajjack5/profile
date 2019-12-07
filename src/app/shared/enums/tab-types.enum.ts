@@ -1,4 +1,4 @@
 export enum TabType {
-    Skillsets = 1,
+    ProfessionalExperience = 1,
     Projects = 2
 }

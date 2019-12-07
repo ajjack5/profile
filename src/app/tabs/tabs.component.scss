@@ -19,12 +19,12 @@ $primary: #44b4cd;
     border-top-right-radius:6px;
     border-top-left-radius:6px;
 
-    &__selected__skillsets {
+    &__selected__professional-projects {
         border-top:1px solid $tab-background;
         position: relative;
     }
 
-    &__selected__skillsets:after {
+    &__selected__professional-projects:after {
         content: "";
         width:50%;
         height:1.1px;
